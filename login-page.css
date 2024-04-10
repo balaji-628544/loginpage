@@ -1,0 +1,89 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('loginpage-1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container
+{
+    height:350px;
+    width:500px;
+    background-color: rgba(228, 221, 221, 0.2);
+   
+    border-radius: 50px;
+    /* box-shadow: 5px 5px 5px 5px, 5px 5px 5px 5px; */
+    box-shadow:0 20px 30px 0 rgba(0,0,0,0.9),0 20px 50px 0 rgba(0,0,0,0.9);
+    display:grid;
+    /* opacity: 0.7; */
+    
+
+}
+.sub-con
+{
+    display:grid;
+    gap:1vh;
+    grid-template-columns: 2fr 25em 2fr;
+    grid-template-rows: repeat(5,1fr);
+}
+.con1
+{
+    border-radius: 10px;
+    height:40px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 10;
+    background-color: rgb(255, 255, 255);
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 2/3;
+    opacity: 1;
+}
+.con2
+{
+    border-radius: 10px;
+    height:40px;
+    width: 400px;
+    font-size: 20px;
+    font-weight: 200;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row: 3/4;
+}
+.con3
+{
+    grid-column: 2/4;
+    grid-row:4;
+    color:black;
+    font-size: 15px;
+    font-weight: 500;
+}
+.con3:hover{
+    color:red;
+}
+.butoncon
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row:4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button1
+{
+    height:50px;
+    width:150px;
+    font-size: 25px;
+    font-weight: 10;
+    opacity: 0.7;
+    border-radius:20px;
+
+}
+.button1:hover
+{
+    background-color: rgb(100, 102, 101);
+}
